@@ -130,7 +130,7 @@ html {
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
 body {
-    background-color: #fafafa;
+    background-color: white;
     margin: 0;
 }
 a {
@@ -267,11 +267,7 @@ a:hover {
     transform: scale(1.2);
 }
 .expertise-text-block-wrapper, .scills-text-block-wrapper {
-    background-color: var(--secondary-background-color);
     width: 45vw;
-}
-.certificate-text, .education-text, .experience-text {
-    background-color: var(--secondary-background-color);
 }
 .contact-text {
     background-color: white;
@@ -371,7 +367,9 @@ a:hover {
 .experience-text-circle img, .education-text-circle img,
 .certificate-text-circle img {
     mix-blend-mode: multiply;
+    will-change: opacity;
     width: 5rem;
+    height: auto;
 }
 .certificate-text-content-titel-proof a {
     color: var(--main-txt-color);
